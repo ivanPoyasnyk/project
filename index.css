@@ -224,12 +224,12 @@ main {
   body {
     background-color: #1f4075;
   }
-  .micro-content {
+.micro-content {
     display: flex; /* Показываем микро контент на мобильных устройствах */
     flex-direction: column;
     padding: 15px;
     text-align: center;
-    justify-content: center;
+    padding-top: 250px;
     align-items: center;
     background-color: #e0e0e0; /* Фон микро контента */
     border-radius: 8px;
