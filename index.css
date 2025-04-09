@@ -220,4 +220,33 @@ main {
 .mydakDiravi {
   margin-left: 160px;
 }
-
+@media (max-width: 768px) {
+  body {
+    background-color: #1f4075;
+  }
+  .micro-content {
+    display: flex; /* Показываем микро контент на мобильных устройствах */
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0; /* Фон микро контента */
+    border-radius: 8px;
+    background-image: url("footballBackground.jpg");
+    max-width: 500px;
+    height: 900px;
+    color: white;
+  }
+  .imgContainer {
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  .item {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+}
