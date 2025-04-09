@@ -210,7 +210,7 @@ main {
 .yellow-content {
   color: rgb(255, 230, 0);
 }
-.imgSize {
+.palitraShmalEbanaya {
   height: 300px;
   padding-left: 80px;
 }
@@ -220,4 +220,46 @@ main {
 .mydakDiravi {
   margin-left: 160px;
 }
+.miniContent {
+  display: none;
+}
+@media (max-width: 768px) {
+  body {
+    background-image: url("footballBackground.jpg");
+  }
+  .miniContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("footballBackground.jpg");
+    font-size: 20px;
+  }
+  .malec {
+    text-align: center;
+  }
+  .btn {
+    display: none;
+  }
+  .slider {
+    display: none;
+  }
+  .golovka {
+    text-align: center;
+  }
+  .imgConte {
+    display: flex;
+  }
+  .littleImg {
+    margin: 10px;
+    border-radius: 5px;
+    height: 50px;
+  }
+}
+
 
