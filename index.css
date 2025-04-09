@@ -220,6 +220,9 @@ main {
 .mydakDiravi {
   margin-left: 160px;
 }
+.micro-content {
+  display: none;
+}
 @media (max-width: 768px) {
   body {
     background-color: #1f4075;
